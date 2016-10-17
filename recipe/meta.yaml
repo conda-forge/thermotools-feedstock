@@ -33,7 +33,7 @@ test:
 
 about:
   home: http://github.com/markovmodel/thermotools
-  license: LGPL 
+  license: LGPL3+ 
   license_file: COPYING.LESSER
   summary: 'Lowlevel implementation of (transition-based and histogram) reweighting analyis methods for Python.'
 
