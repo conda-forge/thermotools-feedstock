@@ -3,7 +3,7 @@ About thermotools
 
 Home: http://github.com/markovmodel/thermotools
 
-Package license: LGPL
+Package license: LGPL3+
 
 Feedstock license: BSD 3-Clause
 
