@@ -16,6 +16,18 @@ reweighting analysis method (TRAM) and its state-discrete variant (dTRAM), Benne
 While you can use thermotools on its own, we recommend to use it in combination with PyEMMA.
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/thermotools-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/thermotools-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/thermotools-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/thermotools-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/thermotools-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/thermotools-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/thermotools/badges/version.svg)](https://anaconda.org/conda-forge/thermotools)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/thermotools/badges/downloads.svg)](https://anaconda.org/conda-forge/thermotools)
+
 Installing thermotools
 ======================
 
@@ -36,7 +48,6 @@ It is possible to list all of the versions of `thermotools` available on your pl
 ```
 conda search thermotools --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -72,18 +83,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/thermotools-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/thermotools-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/thermotools-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/thermotools-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/thermotools-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/thermotools-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/thermotools/badges/version.svg)](https://anaconda.org/conda-forge/thermotools)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/thermotools/badges/downloads.svg)](https://anaconda.org/conda-forge/thermotools)
 
 
 Updating thermotools-feedstock
