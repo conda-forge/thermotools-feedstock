@@ -1,6 +1,6 @@
 {% set name = "thermotools" %}
-{% set version = "0.2.5" %}
-{% set sha256 = "8e0fabf888693d1d07f089d66cc18832cc74f8d3d4e883c513cdd5bb77faacc3" %}
+{% set version = "0.2.6" %}
+{% set sha256 = "861d71e751ed6c54107412267b81487af03ac1db88bbe7ee2944276e9d44b5a2" %}
 
 package:
   name: {{ name|lower }}
