@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 2
   script: python -B setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -20,20 +20,24 @@ requirements:
     - python
     - setuptools
     - cython
-    - numpy x.x
+    - numpy 1.8.*  # [not (win and (py35 or py36))]
+    - numpy 1.9.*  # [win and py35]
+    - numpy 1.11.*  # [win and py36]
   run:
     - python
-    - numpy x.x
+    - numpy >=1.8  # [not (win and (py35 or py36))]
+    - numpy >=1.9  # [win and py35]
+    - numpy >=1.11  # [win and py36]
     - scipy
     - msmtools >=1.1.4
 
 test:
   imports:
-    - thermotools 
+    - thermotools
 
 about:
   home: http://github.com/markovmodel/thermotools
-  license: LGPL3+ 
+  license: LGPL3+
   license_file: COPYING.LESSER
   summary: 'Lowlevel implementation of (transition-based and histogram) reweighting analyis methods for Python.'
 
@@ -48,5 +52,5 @@ about:
 extra:
   recipe-maintainers:
     - marscher
-    - fabian-paul 
-    - cwehmeyer 
+    - fabian-paul
+    - cwehmeyer
