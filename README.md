@@ -19,14 +19,16 @@ While you can use thermotools on its own, we recommend to use it in combination 
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/thermotools-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/thermotools-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/thermotools-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/thermotools-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/thermotools-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/thermotools-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/thermotools-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/thermotools-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/thermotools-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/thermotools-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/thermotools-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/thermotools-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/thermotools/badges/version.svg)](https://anaconda.org/conda-forge/thermotools)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/thermotools/badges/downloads.svg)](https://anaconda.org/conda-forge/thermotools)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-thermotools-green.svg)](https://anaconda.org/conda-forge/thermotools) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/thermotools.svg)](https://anaconda.org/conda-forge/thermotools) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/thermotools.svg)](https://anaconda.org/conda-forge/thermotools) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/thermotools.svg)](https://anaconda.org/conda-forge/thermotools) |
 
 Installing thermotools
 ======================
