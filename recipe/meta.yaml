@@ -12,11 +12,13 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 2
-  script: python -B setup.py install --single-version-externally-managed --record record.txt
+  number: 3
+  script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
   build:
+    - {{ compiler('c') }}
+  host:
     - python
     - setuptools
     - cython
