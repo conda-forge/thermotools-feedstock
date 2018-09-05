@@ -1,6 +1,6 @@
 {% set name = "thermotools" %}
-{% set version = "0.2.6" %}
-{% set sha256 = "861d71e751ed6c54107412267b81487af03ac1db88bbe7ee2944276e9d44b5a2" %}
+{% set version = "0.2.7" %}
+{% set sha256 = "34e492f2593428fbd3f4d9b67a9283bfa6d9bb1f6392e898e10093a11c7af250" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
     - 0000_absolute_imports.patch
 
 build:
-  number: 3
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
